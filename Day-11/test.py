@@ -6,4 +6,4 @@ output = response.json()
 
 for i in range(len(output)):
 
-    print(output[i]["id"])
+    print(output[i]["user"]["login"])
